@@ -1,0 +1,9 @@
+.wp-block-anchor-block-standard {
+	display: inline;
+}
+.wp-block-anchor-block-standard:target:before {
+	content: '';
+	display: block;
+	padding-top: var( --data-anchor-padding );
+	margin-top: calc( 0% - var(--data-anchor-padding) );
+}

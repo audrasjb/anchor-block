@@ -1,0 +1,42 @@
+.wp-block .wrapper-anchor-block {
+	margin: 0;
+	padding: .5em 0;
+	border: 2px dashed #005ab3;
+	color: #005ab3;
+}
+.wp-block .anchor-block-title {
+	font-size: 1em;
+	text-align: center;
+}
+.wp-block .anchor-block-title::before {
+	margin-right: 0.5em;
+	content: url(anchor.svg);
+}
+.wp-block .anchor-block-link {
+	font-size: 0.8em;
+	text-align: center;
+}
+.wp-block .anchor-block-link code {
+	color: #005ab3;
+	background: #dbecff
+}
+.wp-block .anchor-block-link code::selection {
+	color: #b10404;
+	background: #fdcccc
+}
+.anchor-block-randomquote {
+	position: relative;
+	padding: 1em 1em 1em 40px;
+	background: #005ab3;
+	font-style: italic;
+	color: #fff;
+}
+.anchor-block-randomquote:before {
+	font-family: dashicons;
+	font-size: 30px;
+	content: "\f122";
+	color: #2480db;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
